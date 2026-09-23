@@ -78,13 +78,16 @@ export function Hero() {
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.6 }}
-              className="flex flex-wrap gap-4 mb-10"
+              className="flex flex-wrap items-center gap-3.5 mb-10"
             >
               <a href={profile.fiverr} target="_blank" rel="noopener noreferrer" className="btn-navy">
                 Start a Project <ArrowRight size={18} />
               </a>
-              <a href="#projects" className="btn-outline">
-                <Eye size={18} /> View My Work
+              <a href={`mailto:${profile.email}`} className="btn-outline">
+                Email Directly
+              </a>
+              <a href="#projects" className="text-sm font-semibold text-slate-600 hover:text-navy px-3 py-2 transition-colors inline-flex items-center gap-1.5 no-underline">
+                <Eye size={16} /> View Work
               </a>
             </motion.div>
 
@@ -93,7 +96,7 @@ export function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.8 }}
-              className="flex flex-wrap gap-4"
+              className="flex flex-wrap gap-3"
             >
               {[
                 { icon: GraduationCap, label: "M.Sc. Economics" },
@@ -109,6 +112,7 @@ export function Hero() {
                 </div>
               ))}
             </motion.div>
+
           </div>
 
           {/* Right — Dashboard Image */}

@@ -73,12 +73,30 @@ export function Footer() {
             </ul>
           </div>
 
-          {/* External */}
+          {/* External Channels */}
           <div>
             <div className="text-xs font-bold uppercase tracking-wider text-white/40 mb-4">
-              Profiles
+              Direct Channels
             </div>
             <ul className="space-y-2">
+              <li>
+                <a
+                  href={`mailto:${profile.email}`}
+                  className="text-sm text-blue-soft hover:text-white transition-colors no-underline inline-flex items-center gap-1"
+                >
+                  Direct Email <ArrowUpRight size={14} />
+                </a>
+              </li>
+              <li>
+                <a
+                  href={profile.whatsapp ? `https://wa.me/${profile.whatsapp}` : `https://api.whatsapp.com/send?text=${encodeURIComponent(profile.whatsappMessage)}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-sm text-emerald-400 hover:text-white transition-colors no-underline inline-flex items-center gap-1"
+                >
+                  WhatsApp Chat <ArrowUpRight size={14} />
+                </a>
+              </li>
               <li>
                 <a
                   href={profile.fiverr}
@@ -86,7 +104,7 @@ export function Footer() {
                   rel="noopener noreferrer"
                   className="text-sm text-emerald-fiverr hover:text-emerald-400 transition-colors no-underline inline-flex items-center gap-1"
                 >
-                  Fiverr <ArrowUpRight size={14} />
+                  Fiverr Pro <ArrowUpRight size={14} />
                 </a>
               </li>
               <li>
@@ -101,6 +119,7 @@ export function Footer() {
               </li>
             </ul>
           </div>
+
         </div>
 
         {/* Bottom bar */}
