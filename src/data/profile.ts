@@ -4,10 +4,10 @@ export const profile = {
   tagline: "Data Analytics · Business Insights · Marketing Analytics",
   heroHeadline: "Turn Raw Data Into\nClear Business Decisions.",
   heroSubline:
-    "I help founders, marketing leaders, and operating teams convert raw, complex spreadsheets and transactional records into understandable business insights, reliable reports, and actionable growth decisions.",
+    "Helping founders, marketers, and operating teams convert messy spreadsheets and transactional data into clear business insights and growth decisions.",
   about:
-    "I am a Data Analyst with an M.Sc. in Economics from the University of Calcutta. I enjoy working with numbers, uncovering insights from data, and turning complex information into clear, actionable solutions. Skilled in Excel, SQL, Python, Power BI, statistics and econometrics, I'm currently looking for opportunities to learn, grow, and apply my analytical skills in real-world settings.",
-  location: "Serampore, West Bengal, India",
+    "Data Analyst with an M.Sc. in Economics from the University of Calcutta. Experienced in transforming complex numbers into executive dashboards, financial models, and actionable marketing insights using Excel, SQL, Python, and Power BI.",
+  location: "Kolkata, India",
   availability: "Remote Worldwide",
   email: "mazumdersamadrita2.0@gmail.com",
   phone: "",
@@ -16,7 +16,7 @@ export const profile = {
   fiverr: "https://www.fiverr.com/s/BbBA3zz",
   fiverrStartingPrice: "$15",
   linkedin: "https://www.linkedin.com/in/samadrita-mazumder-264783304/",
-  github: "https://github.com/samadrita-mazumder",
+  github: "https://github.com/HR-Professional-Services/samadrita-mazumder-website",
   education: [
     {
       degree: "M.Sc. Economics",
@@ -34,17 +34,14 @@ export const profile = {
     "Primeor Solutions – Data Analytics Intern",
     "30-Day Python + AI Certification",
     "AI Tools & Claude Workshop (Be10x)",
-    "GoodSpace Distinguished: Reliability, Kindness, Truthfulness",
   ],
   topSkills: [
-    "Data Analysis",
-    "Microsoft Power BI",
-    "MySQL",
-    "Microsoft Excel",
-    "Python",
+    "Excel Automation",
+    "Power BI",
+    "SQL / MySQL",
+    "Python Analytics",
+    "Pandas & NumPy",
     "Statistics",
     "Econometrics",
-    "Pandas",
-    "NumPy",
   ],
 } as const;

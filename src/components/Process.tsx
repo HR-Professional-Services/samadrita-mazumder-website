@@ -12,12 +12,12 @@ import {
 import { AnimatedSection } from "./AnimatedSection";
 
 const steps = [
-  { icon: MessageSquare, title: "Understand Your Data", desc: "I start by understanding your business, your data sources, and the questions you need answered." },
-  { icon: Wrench, title: "Clean & Structure", desc: "Remove duplicates, fix formats, handle missing values, and build a clean, reliable data foundation." },
-  { icon: Search, title: "Explore & Analyze", desc: "Use Excel, SQL, and Python to uncover patterns, correlations, trends, and anomalies in your data." },
-  { icon: BarChart3, title: "Visualize & Dashboard", desc: "Build interactive Power BI dashboards with KPI cards, slicers, and drill-through reports." },
-  { icon: FileText, title: "Deliver Insights", desc: "Present findings in clear, non-technical language with actionable charts and executive summaries." },
-  { icon: Lightbulb, title: "Recommend Actions", desc: "Go beyond 'what happened' to 'what should we do next' — practical, grounded recommendations." },
+  { icon: MessageSquare, title: "Understand Needs", desc: "Identify business goals, core KPIs, and data source architecture." },
+  { icon: Wrench, title: "Clean & Structure", desc: "Eliminate duplicates, resolve anomalies, and build a clean data foundation." },
+  { icon: Search, title: "Explore & Model", desc: "Run SQL queries and Python statistical tests to isolate key performance drivers." },
+  { icon: BarChart3, title: "Build Dashboards", desc: "Develop interactive Power BI executive dashboards with custom DAX measures." },
+  { icon: FileText, title: "Deliver Insights", desc: "Present findings with clear, non-technical executive briefs and visualizations." },
+  { icon: Lightbulb, title: "Action Plan", desc: "Translate conclusions into clear operational and commercial growth moves." },
 ];
 
 export function Process() {

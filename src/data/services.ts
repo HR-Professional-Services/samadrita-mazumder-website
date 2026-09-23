@@ -20,42 +20,42 @@ export const services: Service[] = [
     icon: Table2,
     title: "Excel Analysis & Automation",
     description:
-      "Pivot tables, Power Query, VLOOKUP/INDEX-MATCH, automated reporting, data cleaning and preprocessing. Transform chaotic spreadsheets into structured, reliable data architectures.",
+      "Automated workbooks, Power Query pipelines, and formulas to eliminate repetitive manual spreadsheet hours.",
     tools: ["Excel", "Power Query", "VBA"],
   },
   {
     icon: Database,
     title: "SQL Querying & Data Analysis",
     description:
-      "Complex joins, window functions, aggregations, and stored procedures. Extract meaningful patterns from large databases and build optimized queries for recurring analysis.",
+      "Optimized queries, window functions, and complex joins to extract deep insights from relational databases.",
     tools: ["MySQL", "PostgreSQL", "SQL Server"],
   },
   {
     icon: Code2,
     title: "Python Data Analysis",
     description:
-      "Data cleaning, transformation, statistical analysis, and machine learning preparation using Pandas, NumPy, and scikit-learn. Automate repetitive data pipelines.",
+      "Statistical modeling, dataset cleaning, and exploratory data analysis using Pandas, NumPy, and Scikit-Learn.",
     tools: ["Python", "Pandas", "NumPy", "scikit-learn"],
   },
   {
     icon: BarChart3,
     title: "Power BI Dashboards",
     description:
-      "Interactive dashboards with DAX measures, KPI cards, slicers, and drill-through reports. Turn raw data into visual stories that executives can act on immediately.",
+      "Interactive executive dashboards with custom DAX measures, automated refreshes, and drill-through KPIs.",
     tools: ["Power BI", "DAX", "Power Query"],
   },
   {
     icon: TrendingUp,
-    title: "Marketing & Campaign Analytics",
+    title: "Marketing & Ad Analytics",
     description:
-      "CTR, CPC, CPA, ROAS analysis. Facebook Ads performance breakdowns, cohort retention, A/B testing with Chi-square significance, and unified attribution modeling.",
+      "CPA, CPC, ROAS, and multi-channel attribution to identify your most profitable marketing campaigns.",
     tools: ["Excel", "Python", "Power BI"],
   },
   {
     icon: PieChart,
-    title: "Business Insights & KPI Reporting",
+    title: "Business & Financial Insights",
     description:
-      "FP&A variance analysis, forecasting, credit risk assessment, RFM segmentation, reconciliation analysis. Moving from 'What happened?' to 'What should we do?'",
+      "FP&A variance analysis, forward forecasting, and customer cohort segmentation for strategic decision-making.",
     tools: ["Full Stack", "Statistics", "Econometrics"],
   },
 ];

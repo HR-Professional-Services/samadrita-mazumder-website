@@ -12,33 +12,33 @@ import { AnimatedSection, StaggerChildren, fadeUpVariant } from "./AnimatedSecti
 const problems = [
   {
     icon: FileSpreadsheet,
-    title: "Messy, Fragmented Spreadsheets",
-    desc: "Multiple department files with inconsistent formats, duplicate rows, and broken formulas. I clean, standardize, and build single-source data architectures.",
+    title: "Messy Spreadsheets",
+    desc: "Inconsistent formats and broken formulas cleaned into structured, single-source datasets.",
   },
   {
     icon: Clock,
-    title: "Manual, Repetitive Excel Hours",
-    desc: "Spending 8–15 hours weekly copy-pasting numbers for reports. I automate recurring reporting using Power Query and Python so reports refresh in seconds.",
+    title: "Manual Excel Hours",
+    desc: "Hours of weekly copy-pasting automated via Power Query & Python to refresh in seconds.",
   },
   {
     icon: TrendingUp,
-    title: "Unclear Marketing Spend & ROAS",
-    desc: "Spending on Google, Meta, LinkedIn ads without knowing which campaigns produce paying customers. I deliver unified attribution and cohort analysis.",
+    title: "Unclear Ad Spend & ROAS",
+    desc: "Uncertainty in marketing ROI resolved with multi-touch attribution & cohort analytics.",
   },
   {
     icon: LayoutDashboard,
     title: "No Executive Dashboard",
-    desc: "Leadership making decisions on gut feeling because there's no central view of KPIs. I build interactive Power BI dashboards that update automatically.",
+    desc: "Gut-feeling decisions replaced with interactive, auto-refreshing Power BI dashboards.",
   },
   {
     icon: Database,
     title: "Raw Data Overload",
-    desc: "Sitting on large datasets but lacking the skills to extract meaning. I transform raw exports into clean, structured insights you can act on immediately.",
+    desc: "Complex data exports distilled into clear KPIs, drivers, and immediate growth actions.",
   },
   {
     icon: Target,
-    title: "Scaling Without Data Confidence",
-    desc: "Growing the business but not sure which products, channels, or customer segments to double down on. I provide the analysis to make confident decisions.",
+    title: "Scaling Without Clarity",
+    desc: "High-value customer segments and top products identified with RFM segmentation.",
   },
 ];
 
