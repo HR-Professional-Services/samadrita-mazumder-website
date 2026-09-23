@@ -1,0 +1,47 @@
+export const profile = {
+  name: "Samadrita Mazumder",
+  title: "Data Analyst",
+  tagline: "Data Analytics · Business Insights · Marketing Analytics",
+  heroHeadline: "Turn Raw Data Into\nClear Business Decisions.",
+  heroSubline:
+    "I help founders, marketing leaders, and operating teams convert raw, complex spreadsheets and transactional records into understandable business insights, reliable reports, and actionable growth decisions.",
+  about:
+    "I am a Data Analyst with an M.Sc. in Economics from the University of Calcutta. I enjoy working with numbers, uncovering insights from data, and turning complex information into clear, actionable solutions. Skilled in Excel, SQL, Python, Power BI, statistics and econometrics, I'm currently looking for opportunities to learn, grow, and apply my analytical skills in real-world settings.",
+  location: "Serampore, West Bengal, India",
+  availability: "Remote Worldwide",
+  email: "contact@samadritamazumder.com",
+  fiverr: "https://www.fiverr.com/s/BbBA3zz",
+  fiverrStartingPrice: "$15",
+  linkedin: "https://www.linkedin.com/in/samadrita-mazumder-264783304/",
+  github: "https://github.com/samadrita-mazumder",
+  education: [
+    {
+      degree: "M.Sc. Economics",
+      institution: "University of Calcutta",
+      year: "'26 (Pursuing)",
+    },
+    {
+      degree: "B.Sc. Economics Honours",
+      institution: "Serampore College",
+      year: "'24",
+    },
+  ],
+  credentials: [
+    "McKinsey Forward Program",
+    "Primeor Solutions – Data Analytics Intern",
+    "30-Day Python + AI Certification",
+    "AI Tools & Claude Workshop (Be10x)",
+    "GoodSpace Distinguished: Reliability, Kindness, Truthfulness",
+  ],
+  topSkills: [
+    "Data Analysis",
+    "Microsoft Power BI",
+    "MySQL",
+    "Microsoft Excel",
+    "Python",
+    "Statistics",
+    "Econometrics",
+    "Pandas",
+    "NumPy",
+  ],
+} as const;
